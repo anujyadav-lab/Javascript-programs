@@ -62,9 +62,11 @@
 
 // write a program to reverse word in the given string.
 
-const str = 'Anuj Yadav'
-let reversedStr = '';
 
+
+const str = 'Anuj Yadav' //,[juna vaday]
+
+let reversedStr = '';
 
 
 function reverseString(str){
@@ -72,15 +74,23 @@ function reverseString(str){
     let words = str.split(' ')
     // console.log(words.length)
 
-for(let i = 0; i <= words.length; i++){
-let my = words[i]?.split('')
-console.log(my)
-}
+for(let i = 0; i < words.length; i++){
+ words[i] = words[i]?.split('').reverse().join('')
 
 // reverseString = str.split(' ').reverse().join('')
 // console.log(reverseString)
 
-
 }
 
-reverseString(str)
+return words.join(' ')
+}
+
+console.log(reverseString(str))
+// solve above by only reversing the 2nd word yadav.
+
+
+
+
+
+
+
