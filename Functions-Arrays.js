@@ -140,28 +140,98 @@
 
 
 
-const arr = [1,2, , 4, , 5, , , 6]; //op [1, 2, 4, 5, 6];
+// const arr = [1,2, , 4, , 5, , , 6]; //op [1, 2, 4, 5, 6];
+
 // const arr = [1,2, , 4, , 5, , , 6, null , 7]; //op [1, 2, 4, 5, 6];
 
 
 
-function myFunctions(arr){
+// function myFunctions(arr){
 
-    let newArr = [];
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i] !== undefined ){
-            newArr.push(arr[i]);
+//     let newArr = [];
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] !== undefined ){
+//             newArr.push(arr[i]);
 
-        }
+//         }
 
-    }
-    return newArr;
+//     }
+//     return newArr;
 
 
 
+// }
+
+// console.log(myFunctions(arr))
+
+// // 1)
+// const str = "AB_12_CD_20_EF_30"; //  op-> "AB 12 CD 20 EF 30";
+
+// // //  let newString = str.split('_').join(' ')
+// // // console.log(newString)
+
+// // // // console.log(str.length)
+
+
+// let newStr = "";
+
+// for(let i = 0; i<str.length; i++){
+//       if(str[i] !== "_"){
+//             newStr = newStr + str[i]
+
+
+            
+//       }
+// }
+// console.log(newStr)
+
+
+
+
+// add(3)(4)(5) function call op--> 3+4+5
+
+// function top(a){
+//     return function middle(b){
+//         return function bottom(c){
+//             return console.log(`${a}+${b}+${c}`);
+//         }
+//     }
+// }
+
+// top(3)(4)(5);
+
+
+
+
+
+
+
+
+
+// const arr = ['pune','bangalore','mumbai','goa']; // give me the longest string in the output.
+
+
+
+//  const arr = [1, 2, 3, 2, 1, 4, 4, 5, 6,9,'1','Hello'];Find element which is not repeated in array
+// and also add those non repeating elements into variable total? =
+
+const arr = [1, 2, 3, 2, 1, 4, 4, 5, 6,9,'1','Hello'];
+
+let total = null;
+
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] )
 }
 
-console.log(myFunctions(arr))
+
+
+
+
+
+
+
+
+
 
 
 

@@ -62,3 +62,66 @@
 // c.greeting = 'Hello';
 // console.log(d.greeting); Hello
 
+
+// let a = 3;
+// let b = new Number(3);
+// let c = 3;
+
+// console.log(a == b);
+// console.log(a === b);
+// console.log(b === c);
+
+// function sum(a, b) {
+//     return a + b;
+//   }
+  
+//   sum(1, '2');
+
+
+
+// let x = 0;
+// // x++
+
+// console.log(x++)
+// console.log(x)
+
+
+
+// let number = 0;
+// console.log(number++);
+// console.log(++number);
+// console.log(number);
+
+
+// 16 done
+
+
+
+// const arr = [undefined,null,0,false,1]
+
+// const res = arr.filter(a => a);
+
+// console.log(res)
+
+// op--> [ null, 0, false]
+
+
+
+// let arr = [{
+//     name: 'shubham',
+//     subjects: [{ math: 20 }, { history: 30 }, { economics: 50 }],
+//     total:null ,
+//     },
+
+//     {
+//     name: 'rohan',
+//     subjects: [{ math: 45 }, { history: 25 }, { economics: 30 }],
+//     total:null ,
+//     }]
+
+//     // console.log(arr)
+
+//       arr[0].total = arr[0].subjects[0].math + arr[0].subjects[1].history + arr[0].subjects[2].economics
+//       arr[1].total = arr[0].subjects[0].math +  arr[0].subjects[1].history + arr[0].subjects[2].economics
+
+//       console.log(arr)
