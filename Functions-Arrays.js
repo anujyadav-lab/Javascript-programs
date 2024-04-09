@@ -209,26 +209,71 @@
 
 
 // const arr = ['pune','bangalore','mumbai','goa']; // give me the longest string in the output.
+// // console.log(arr.length)
 
+// // let maxStr = '';
+// let minStr = arr[0];
+
+
+
+
+// for(let i  = 0; i < arr.length; i++){
+
+// if(arr[i].length < minStr.length){
+
+
+// minStr = arr[i]a 
+
+// }
+
+
+
+// }
+
+// console.log(minStr)
+
+// const arr = ['pune', 'bangalore', 'mumbai', 'goa'];
+
+// const longestString = arr.reduce((longest, current) => current.length > longest.length ? current : longest, '');
+
+// console.log(longestString); // Output: 'bangalore'
 
 
 //  const arr = [1, 2, 3, 2, 1, 4, 4, 5, 6,9,'1','Hello'];Find element which is not repeated in array
 // and also add those non repeating elements into variable total? =
 
-const arr = [1, 2, 3, 2, 1, 4, 4, 5, 6,9,'1','Hello'];
-
-let total = null;
-
-for(let i = 0; i < arr.length; i++){
-    if(arr[i] )
-}
 
 
 
 
 
+// const arr = [0,0,1,2,3,3,4,5,5,6,7,8] // op [0,1,2,3,4,5,6,7,8]
+
+// let newArr = [];
+
+// // const Array = new Set(arr);
+// // console.log(Array)
 
 
+// for(let i = 0; i< arr.length; i++){ //1,2
+
+//     let isDuplicate = false;
+
+//     for(let j = 0; j < newArr.length; j++){ //1 ,2
+
+//         if(arr[i] == newArr[j]){
+//             isDuplicate = true;
+//             break;
+//         }
+//     }
+
+//     if(!isDuplicate){
+//         newArr.push(arr[i]) //newArr = []
+//     }
+
+// }
+
+// console.log(newArr)
 
 
 
