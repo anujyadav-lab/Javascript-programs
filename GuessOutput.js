@@ -93,7 +93,7 @@
 // console.log(number);
 
 
-// 16 done
+
 
 
 
@@ -125,3 +125,46 @@
 //       arr[1].total = arr[0].subjects[0].math +  arr[0].subjects[1].history + arr[0].subjects[2].economics
 
 //       console.log(arr)
+
+
+// function checkAge(data) {
+//     if (data === { age: 18 }) {
+//       console.log('You are an adult!');
+//     } else if (data == { age: 18 }) {
+//       console.log('You are still an adult.');
+//     } else {
+//       console.log(`Hmm.. You don't have an age I guess`);
+//     }
+//   }
+  
+//   checkAge({ age: 18 });
+
+
+
+// function getAge(narpat) {
+//     console.log(typeof narpat);
+//   }
+  
+//   getAge(21);
+
+// const arr = [1];
+
+// console.log(typeof(arr))
+
+
+// function getAge(...args) {
+//     console.log(typeof args);
+//   }
+  
+//   getAge(21);
+
+
+// function getAge() {
+//   'use strict';
+//   age = 21;
+//   console.log(age);
+// }
+
+// getAge();
+
+// 24 done

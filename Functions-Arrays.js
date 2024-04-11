@@ -277,6 +277,94 @@
 
 
 
+// let arr = new Array(1,2,3);
+
+// console.log(arr)
+
+
+// let arr = []
+
+// arr.push(1,2,3)
+
+// console.log(arr)
+
+
+
+// write js program to flatten the nested array. [1,2,3,[4,5,6],7,8,9] // op [1,2,3,4,5,6,7,8,9]
+
+
+// push and pop methods to add and remove array elements at the end of array.
+
+// shift and unshift are used when adding and removing elements from the top of the array means start of the array.
+
+
+// let arr = [];
+// arr.push(1,2,3,'hello',4,5,'fruits');
+
+// arr.pop()
+// arr.unshift('yadav')
+// // arr.shift()
+// console.log(arr)
+
+
+
+// loops, for loop,while loops
+// let i = 0;
+
+// while(i<arr.length){
+// console.log(arr[i])
+//     i++
+// }
+
+// Inbuilt loops methods.
+
+
+// const numbers = [1,2,3,4,5];
+
+// const x = numbers.map((i) => {
+//    return i+1
+// })
+
+
+// console.log(x)
+
+// const numbers = [1,2,3,4,5,6]
+
+// const array = numbers.filter( element => console.log(element % 2) )
+
+// console.log(array)
+
+
+// const numbers = [1,2,3,4,5,6]
+
+// // const newNums = numbers.reduce((prevValue,item,index,array))
+
+// const newNums = numbers.reduce((prevValue,item)=>{
+//     return prevValue+item
+
+// },-1)
+
+// console.log(newNums)
+
+
+
+
+// const numbers = [1,2,3,4,5,6]
+// const numbers2 = [7,8,9]
+
+// const array = [...numbers,...numbers2]
+
+// console.log(array)
+
+// function sum(...numbers){
+//     return numbers
+// }
+
+// console.log(sum(numbers,numbers2),'anuj')
+
+
+
+
 
 
 
