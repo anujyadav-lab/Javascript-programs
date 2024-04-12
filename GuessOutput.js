@@ -167,4 +167,59 @@
 
 // getAge();
 
-// 24 done
+// const obj = { a: 'one', b: 'two', a: 'three',narpat:'q',anuj:'e',narpat:'r' }; // three, two, r,e
+// console.log(obj);
+// The JavaScript global execution context creates two things for you: the global object, and the "this" keyword.
+
+// for (let i = 1; i < 5; i++) {
+//     if (i === 3) continue;
+//     console.log(i);
+//   }
+
+// const a = {};
+// const b = { key: 'b' };
+// const c = { key: 'c' };
+
+// a[b] = 123;
+// // a[c] = 456;
+
+// console.log(a[b]);
+
+
+// const narpat = {};
+
+// const anuj = { name:null}
+
+
+// narpat[anuj] = 'hello' ;
+
+
+// console.log(narpat[anuj])
+
+
+
+// const anuj = {name:'anuj'}; // The default string representation of an object in JavaScript is '[object Object]'.
+
+// const str = anuj.toString();
+
+// console.log(str)
+ 
+
+// const a = {};
+// const b = { key: 'b' };
+// const c = { key: 'c' };
+
+// a[b] = 123;
+// a[c] = 456;
+
+// console.log(a[b]);
+
+// const foo = () => console.log('First');
+// const bar = () => setTimeout(() => console.log('Second'));
+// const baz = () => console.log('Third');
+
+// bar();
+// foo();
+// baz();
+
+// 30 done
