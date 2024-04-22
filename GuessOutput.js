@@ -222,4 +222,231 @@
 // foo();
 // baz();
 
-// 30 done
+
+
+// understood
+
+// const object = {name:'narpat'};
+//  object.name = 'makwana';
+
+//  console.log(object)
+
+
+
+
+
+
+// const obj = ['narpat'];
+
+//  obj[0] = 'mak'
+// console.log(obj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const narpat = {name:'na',rollno:12}
+
+// console.log(typeof(narpat))
+
+// const [name,rollno] = narpat
+
+{/* <div onclick="console.log('first div')">
+  <div onclick="console.log('second div')">
+    <button onclick="console.log('button')">
+      Click!
+    </button>
+  </div>
+</div> */}
+
+
+
+
+
+// const person = { name: 'Lydia' };
+
+// function sayHi(age) {
+//   return `${this.name} is ${age}`;
+// }
+
+// let x = sayHi.apply(person, [21])
+
+
+
+
+// console.log(x)
+// const person = { name: 'Lydia' };
+
+// function sayHi(age) {
+//   return `${this.name} is ${age}`;
+// }
+
+// console.log(sayHi.call(person, 21));
+// console.log(sayHi.bind(person, 21));
+
+
+// typeOf null is object 
+// function sayHi() {
+//   return (() => 0)();
+// }
+
+// console.log(typeof sayHi());
+
+
+// There are 8 falsy values:
+
+// undefined
+// null
+// NaN
+// false
+// '' (empty string)
+// 0
+// -0
+// 0n (BigInt(0))
+// Function constructors, like new Number and new Boolean are truthy.
+
+
+// console.log(typeof typeof 1);
+
+// const numbers = [1, 2, 3];
+// numbers[10] = 11;
+// console.log(numbers);
+
+// When you set a value to an element in an array that exceeds the length of the array, JavaScript creates something called "empty slots". These actually have the value of undefined, but you will see something like:
+
+// [1, 2, 3, empty x 7, 11]
+
+// depending on where you run it (it's different for every browser, node, etc.)
+
+
+
+// const firstPromise = new Promise((res, rej) => {
+//   setTimeout(res, 500, 'one');
+// });
+
+// const secondPromise = new Promise((res, rej) => {
+//   setTimeout(res, 100, 'two');
+// });
+
+// Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
+
+
+// let person = { name: 'Lydia' };
+// const members = [person]; //[{name:'lydia'}] array of object.
+// person = null;
+
+// console.log(members);
+// let x = 1 ;
+// const y = x; // REFERENCE --> 1
+// x = 2;  
+// console.log(y)
+
+// const person = {
+//   name: 'Lydia',
+//   age: 21,
+// };
+
+// for (const item in person) {
+//   console.log(item);
+// }
+
+
+
+// parseInt(string, [radix]);
+// the default radix is 10.
+
+// const num = parseInt(5);
+
+// console.log(num)
+
+// [1, 2, 3].map(num => {
+//   if (typeof num === 'number') return;
+//   return num * 2;
+// });
+
+// function getInfo(member, year) {
+//   member.name = 'Lydia';
+//   year = '1998';
+// }
+
+// const person = { name: 'Sarah' };
+// const birthYear = '1997';
+
+// getInfo(person, birthYear);
+
+// console.log(person, birthYear);
+
+
+// function greeting() {
+//   throw 'Hello world!';
+// }
+
+// function sayHi() {
+//   try {
+//     const data = greeting();
+//     console.log('It worked!', data);
+//   } catch (e) {
+//     console.log('Oh no an error:', e);
+//   }
+// }
+
+// sayHi();
+
+
+
+// (() => {
+//   let x = (y = 10); //  
+//   // console.log(typeof x);
+
+// })();
+
+// console.log(typeof x);
+
+// console.log(typeof y);
+
+
+
+// const set = new Set([1, 1, 2, 3, 4]);
+
+// console.log(set);
+
+
+
+// const name = 'Lydia';
+// age = 21;
+
+// console.log(delete name);
+// console.log(delete age);
+// The delete operator returns a boolean value: true on a successful deletion, else it'll return false.
+
+// const numbers = [1, 2, 3, 4, 5];
+// const [y] = numbers;
+
+// console.log( typeof(y));
+
+// const obj = { name: "John", age: 30, city: "New York" , rollno:123};
+// let jsonString = JSON.stringify(obj,['age','rollno']);
+// console.log(jsonString); // Output: {"name":"John","age":30,"city":"New York"}
+
+// The second argument of JSON.stringify is the replacer. The replacer can either be a function or an array, and lets you control what and how the values should be stringified.
+
+
+// let jsonString = JSON.stringify(value, replacer, space);
+

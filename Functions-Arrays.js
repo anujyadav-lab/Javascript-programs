@@ -14,7 +14,7 @@
 
 // function maxNum(Array){
 
-// for(let i = 1; i < Array.length; i++){
+// for(let i = 0; i < Array.length; i++){
 
 //     if(array[i] > max){
 //         max = array[i];
@@ -135,6 +135,28 @@
 
 // console.log(newArr)
 
+// const arr = [1,2,3,4,5,6,7,8];
+// const arr2 =[]
+// for(let i=0; i<arr.length;i++){
+//     if(i != 4 && i!=6){
+//         arr2.push(arr[i]);
+//     }
+        
+//     }
+    
+// console.log(arr2)
+
+// const arr = [1,2,3,4,5,6,7,8];
+
+
+// const res = [];
+// for(let i=0; i<arr.length;i++){
+//     if(arr[i] != 5 && arr[i] != 7){
+//         res.push(arr[i]);        
+//     }
+// }
+
+// console.log(res);
 
 
 
@@ -186,6 +208,20 @@
 // console.log(newStr)
 
 
+// const str = "AB_12_CD_20_EF_30"; //  op-> "AB 12 CD 20 EF 30"r.
+// let res = '';
+// function Result(str){
+//     for(let i=0; i<str.length;i++){
+//         if(str[i] == '_'){
+//             res = res + ' ';
+//         }else{
+//             res = res + str[i];
+//         }
+//     }
+//     return res;
+// }
+
+// console.log(Result(str));
 
 
 // add(3)(4)(5) function call op--> 3+4+5
